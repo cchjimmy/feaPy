@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 E = 40 # Elastic modulus, in GPa
 v = 0.3 # Poisson's Ratio
-t = 2 # plate thickness
+t = 2 # plate thickness, mm
 L = 40 # just a length for plate dimension, mm
 F = np.array([0, -50])
 
