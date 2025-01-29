@@ -1,7 +1,7 @@
 # FEA py
 Simple Finite Element Analysis (FEA) code written in Python,
 it is for 2D thin plate of arbitrary shape.
-Currently only support these 2 elements.
+Currently only support linear and quadratic triangular elements.
 However, additional elements can be easily added by specifying their element stiffness matrix (K) and shape function derivative matrix (B) implementations.
 When implementing K,
 it is important to keep parameters accepted and values returned by K the same across different element types,
