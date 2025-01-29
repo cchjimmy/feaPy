@@ -6,7 +6,7 @@ This figure is created with ![test.py](test.py).
 Currently only support these 2 elements.
 However, additional elements can be easily added by specifying their element stiffness matrix (K) and shape function derivative matrix (B) implementations.
 When implementing K,
-it is important to keep parameters accepted by K the same across different element types,
+it is important to keep parameters accepted and values returned by K the same across different element types,
 as it is called the same way within the evaluate function.
 
 # Dependencies
