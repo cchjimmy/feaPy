@@ -2,13 +2,10 @@ import fea as fea
 import numpy as np
 import matplotlib.pyplot as plt
 
-# np.set_printoptions(suppress=True)
-# help(np.set_printoptions)
-
-E = 40
-v = 0.3
-t = 2
-L = 40
+E = 40 # Elastic modulus, in GPa
+v = 0.3 # Poisson's Ratio
+t = 2 # plate thickness
+L = 40 # just a length for plate dimension, mm
 F = np.array([0, -50])
 
 # linear geometry
