@@ -55,13 +55,11 @@ def stiffnessLinear(D, t, vertices, BCoefFunc):
     return B.T @ D @ B * t * doubleArea * 0.5, B
 
 
-samplingPoints = np.array([[.5, .5], [.5, 0], [0, .5]])
-weights = [1/6, 1/6, 1/6]
-
-
 def stiffnessQuadratic(D, t, vertices, BCoefFunc):
     k = 0
     B = 0
+    samplingPoints = np.array([[.5, .5], [.5, 0], [0, .5]])
+    weights = [1/6, 1/6, 1/6]
     samplingPointsLen = len(samplingPoints[:, 0])
     for i in range(samplingPointsLen):
         BCoef = BCoefFunc(samplingPoints[i, 0], samplingPoints[i, 1])
