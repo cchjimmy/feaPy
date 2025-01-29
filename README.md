@@ -1,5 +1,6 @@
 # FEA py
-Simple Finite Element Analysis (FEA) code written in Python.
+Simple Finite Element Analysis (FEA) code written in Python,
+it is for 2D thin plate of arbitrary shape.
 Subplot left to right is FEA with linear and quadratic triangular elements respectively.
 This figure is created with ![test.py](test.py).
 Currently only support these 2 elements.
